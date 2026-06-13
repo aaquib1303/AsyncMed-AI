@@ -90,11 +90,13 @@ If you wish to run this pipeline locally, you will need to configure your own AW
    ```bash
    git clone [https://github.com/samehnadeem7/AsyncMed-AI.git](https://github.com/samehnadeem7/AsyncMed-AI.git)
    cd AsyncMed-AI
+   ```
 
 2. **Backend Setup**
     ```bash
    cd backend
    npm install
+    ```
 
   Create a .env file in the backend directory with the following keys:
     ```
@@ -106,17 +108,17 @@ If you wish to run this pipeline locally, you will need to configure your own AW
       JWT_SECRET=aisa_nakko_karo_yaro_2026
     ```
   Start the backend server
-    ```bash
+    ```
     npm run dev
     ```
 
 3 **Frontend Setup**
-    ```bash
+    ```
      cd frontend
      npm install
     ```
     Start the development server
-      ```bash
+      ```
       npm run dev
       ```
 
