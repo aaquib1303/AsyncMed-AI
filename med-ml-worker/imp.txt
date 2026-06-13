@@ -1,0 +1,1 @@
+URI = "457550570502.dkr.ecr.ap-south-1.amazonaws.com/med-ml-worker-repo:latest"

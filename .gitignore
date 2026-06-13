@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment Variables (NEVER PUSH THESE)
+.env
+backend/.env
+frontend/.env
+
+# Heavy Machine Learning Models
+*.pth
+*.pt
+*.h5
+ovarian_efficientnet_b0.pth
+
+# Build files
+dist/
+build/
+.DS_Store

@@ -1,0 +1,9 @@
+# Ignore the massive image dataset
+data/
+
+# Ignore PyTorch model weight files
+*.pth
+
+# Ignore Python cache
+__pycache__/
+*.pyc
