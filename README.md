@@ -10,7 +10,11 @@
 
 Instead of simple binary classifications, the platform utilizes **Explainable AI (Grad-CAM)** to generate heatmaps, showing clinicians exactly which tissue regions the model focused on to make its decision.
 
-### 🎥 [Watch the 2-Minute Demo Video Here] *(<- Link your video here!)*
+### 🎥 Watch the 2-Minute Architecture Demo
+
+[![AsyncMed Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/maxresdefault.jpg)](https://youtu.be/ShnwibfLhPI
+)
+
 
 ---
 
