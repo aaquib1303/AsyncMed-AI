@@ -96,29 +96,29 @@ If you wish to run this pipeline locally, you will need to configure your own AW
    cd backend
    npm install
 
-Create a .env file in the backend directory with the following keys:
-  ```
-    PORT=8000
-    AWS_REGION=ap-south-1
-    RAW_BUCKET_NAME=med-scans-raw-aqb
-    PROCESSED_BUCKET_NAME=med-scans-processed-aqb
-    MONGO_URI=mongodb+srv://aaquibuddinmd_db_user:bpIn3k4B4g5nA4uY@med-cluster.g0lxuh9.mongodb.net/?appName=med-cluster
-    JWT_SECRET=aisa_nakko_karo_yaro_2026
-  ```
-Start the backend server
-```bash
-npm run dev
-```
+  Create a .env file in the backend directory with the following keys:
+    ```
+      PORT=8000
+      AWS_REGION=ap-south-1
+      RAW_BUCKET_NAME=med-scans-raw-aqb
+      PROCESSED_BUCKET_NAME=med-scans-processed-aqb
+      MONGO_URI=mongodb+srv://aaquibuddinmd_db_user:bpIn3k4B4g5nA4uY@med-cluster.g0lxuh9.mongodb.net/?appName=med-cluster
+      JWT_SECRET=aisa_nakko_karo_yaro_2026
+    ```
+  Start the backend server
+    ```bash
+    npm run dev
+    ```
 
 3 **Frontend Setup**
     ```bash
      cd frontend
      npm install
     ```
-Start the development server
-```bash
-npm run dev
-```
+    Start the development server
+      ```bash
+      npm run dev
+      ```
 
   
 
